@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  body {
+      font-family: Helvetica, Arial, sans-serif;
+      color: #39a6b2;
+  
+    }
+  
+  header {
+      padding: 20px;
+      padding-left:0px;
+      background-color: #333333;
+      position: sticky;
+      top: 0;
+      
+
+    }
+  
+  header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #333333;
+      margin: 0;
+      background-color: #39a6b2;
+      padding: 10px ;
+      padding-left: 50px;
+      display:inline-block;
+
+    }
+  
+  header a {
+      text-decoration: none;
+      color: #39a6b2;
+    }
+  
+  header nav {
+      float: right;
+      margin: 7px 0;
+    }
+  
+  header nav ul li {
+      display: inline;
+      margin-right:15px;
+   
+     
+      border: solid #39a6b2;
+      padding-bottom: 4px;
+      border-width: 0 0 4px 0;
+    }
+  
+  header nav ul li a {
+      padding: 15px;
+      font-size: 22px;
+    
+    }
+
+
+    .hero {
+      background-image: url("../images/hero-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-position: 0% 90%;
+
+      height:400px;
+    
+      display: flex;
+      justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+    flex-wrap: wrap;
+    
+      
+    }
+    
+    
+    .hero h2 {
+      font-size: 40px;
+      color: #333333;
+      margin-right:50px;
+      margin-bottom:20px;
+      background-color: #39a6b2;
+      padding:10px;
+    }
+
+    .section-content {
+
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      
+    
+    }
+
+    .section-title{
+     
+      width: 15%;
+      float:right;
+      
+      
+    }
+
+    .section-title h2 {
+text-align: right;
+margin-right: 10px;
+font-size: 40px;
+color: #333333;
+     
+    }
+    .section-text{
+    padding-left: 40px;
+    width: 65%;
+    border: solid #333;
+    border-width: 0 0 0 4px;
+    }
+  
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, 4fr);
+      grid-template-rows: repeat(5, 1fr) 2fr;ß
+
+    }
+
+    
