@@ -120,12 +120,93 @@ color: #333333;
     border-width: 0 0 0 4px;
     }
   
+    .projects-grid-wrapper{
+      margin-top: 40px;
+      display: flex;
+      width: 100%;
+     
+      justify-content: center;
 
+    }
     .projects {
       display: grid;
-      grid-template-columns: 1fr repeat(2, 4fr);
-      grid-template-rows: repeat(5, 1fr) 2fr;ß
+      height: 500px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr ;
 
     }
 
+    .project{
+
+      margin: 5px;
+
+
+      border: 3px solid #39a6b2;
+      color: #333;
+      display: flex;  
+      flex-direction: column;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      
+      
+  
+
+    }
+
+ .project-title {
+width:40%;
+padding:15x;
+margin-bottom:10px;
+background-color: #39a6b2;
+display: flex;  
+flex-direction: column;
+justify-content: center;
+text-align:center;
+ }
+
+
+    .project.feature{
+
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
+
+      background-image: url("../images/horiseon.jpg");
+
+  background-size: cover;
+  background-position: 0% 0%;
+  
+    }
+
+    .project.monaco {
+
+      background-image: url("../images/monaco.png");
+
+      background-size: cover;
+      background-position: 0% 20%;
+    }
+
+    .project.surf {
+
+      background-image: url("../images/surf.jpg");
+
+      background-size: cover;
+      background-position: 0% 50%;
+
+    }
+
+    .project.led {
+      background-image: url("../images/led.jpg");
+
+      background-size: cover;
+      background-position: 0% 50%;
+
+    }
+
+    .project.run {
+      background-image: url("../images/run.png");
+
+      background-size: cover;
+      background-position: 0% 50%;
+
+    }
     
