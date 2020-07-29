@@ -55,18 +55,18 @@
     }
   
   header nav ul li a {
-      padding: 15px;
+      padding: 10px 15px;
       font-size: 22px;
     
     }
 
 
     .hero {
-      background-image: url("../images/hero-bg.jpg");
-      background-size: cover;
+      background-image: url("../images/hero-bg.png");
+    
       background-position: center;
-      background-attachment: fixed;
-      background-position: 0% 90%;
+     
+      background-position: 60% 30%;
 
       height:400px;
     
@@ -155,7 +155,7 @@ color: #637288;
     }
 
  .project-title {
-width:40%;
+width:60%;
 padding:15x;
 margin-bottom:10px;
 background-color: #39a6b2;
@@ -272,6 +272,100 @@ text-align:center;
       opacity: 0.5;
       }
 
-    
+      @media screen and (max-width: 980px) {
+
+        
+        header {
+          display:flex;
+          padding-bottom: 0;
+          justify-content: center;
+          align-items:center;
+          flex-wrap:wrap;
+        }
+
+        header h1 {
+          width: 100%;
+          text-align: center;
+        }
+      
+        header nav ul {
+          margin-top: 20px;
+          width: 100%;
+          text-align:center;
+          line-height:1.7;
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+        }
+
+        .project-title {
+
+          width: 70%;
+
+        }
+
+
+        .contacts{
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          text-align:center;
+          line-height:1.5;
+  
+  
+          }
+  
+          .contacts ul {
+           
+  
+            text-align:center;
+           
+          }
+      
+      }
+    @media screen and (max-width: 768px) {
+      .section-title{
+
+        width: 100%;
+        display:flex;
+        justify-content:center;
+      }
+
+      .section-text {
+      width:100%;
+     
+     padding:20px;
+
+        border-width: 4px 0 0px;
+
+      }
+
+      .projects-grid-wrapper {
+
+        flex-direction: column;
+      }
+      .section-content{
+
+        flex-direction: column;
+      }
+
+      .project-title {
+
+        width: 80%;
+
+      }
+
+    }
+
+    @media screen and (max-width: 575px) {
+
+      .project-title {
+
+        width: 85%;
+
+      }
+
+    }
     
     
