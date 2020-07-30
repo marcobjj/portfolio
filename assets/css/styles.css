@@ -179,8 +179,7 @@ color: #637288;
       justify-content: flex-end;
       flex-wrap: wrap;
       transition: background-color 1s ease;
-      
-  
+      cursor: pointer;
 
     }
 
