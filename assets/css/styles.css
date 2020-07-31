@@ -48,7 +48,7 @@
   header nav ul li {
       display: inline;
       margin-right:15px;
-   
+      white-space: nowrap;
      
       border: solid #99c7cd;
       padding-bottom: 4px;
