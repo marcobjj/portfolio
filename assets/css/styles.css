@@ -19,7 +19,7 @@
       background-color: #3d4653  ;
       position: sticky;
       top: 0;
-      
+      z-index:1000;
 
     }
   
@@ -159,6 +159,7 @@ color: #637288;
 
     }
     .projects {
+      z-index: -1;
       display: grid;
       height: 500px;
       grid-template-columns: 1fr 1fr 1fr;
