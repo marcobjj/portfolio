@@ -362,6 +362,22 @@ text-align:center;
 
         }
 
+        .projects{
+
+          height:750px;
+          grid-template-rows: 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
+           
+           
+      
+      grid-template-areas:
+      "feature feature  "
+      "feature feature"
+      "surf led "
+      "monaco run";
+      
+            }
+
 
         .contacts{
           display:flex;
