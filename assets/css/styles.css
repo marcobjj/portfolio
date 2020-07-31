@@ -159,7 +159,7 @@ color: #637288;
 
     }
     .projects {
-      z-index: -1;
+     
       display: grid;
       height: 500px;
       grid-template-columns: 1fr 1fr 1fr;
