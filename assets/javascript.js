@@ -2,7 +2,7 @@ window.onload = function(e){
 
 
 document.getElementById('feature').addEventListener('click', function() {
-    window.open("https://marcobjj.github.io/module1/ ", '_blank');
+    window.open("https://gtankha.github.io/bootcamptravel/ ", '_blank');
 
 
 
